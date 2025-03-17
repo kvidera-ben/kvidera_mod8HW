@@ -1,0 +1,58 @@
+
+body {
+    padding: 20px;
+    margin: 30px;
+}
+
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+
+.pic1 {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    border: 2px solid black; 
+    padding: 10px; 
+}
+
+.schedule th, .schedule td {
+    border: 1px solid black; /* Adds gridlines inside the table */
+    padding: 8px; /* Adds space inside each cell */
+    text-align: center; /* Centers the text */
+}

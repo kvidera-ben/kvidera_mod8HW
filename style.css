@@ -43,16 +43,23 @@ a:hover {
 }
 
 .schedule {
-    width: 100%;
+    width: 70%;
     border-collapse: collapse;
     margin-top: 20px;
-    font-family: Arial, sans-serif;
     border: 2px solid black; 
     padding: 10px; 
 }
 
 .schedule th, .schedule td {
-    border: 1px solid black; /* Adds gridlines inside the table */
-    padding: 8px; /* Adds space inside each cell */
-    text-align: center; /* Centers the text */
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center; 
+}
+
+.pic2 {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    padding: 10px;
 }
